@@ -179,7 +179,7 @@ UPDATE mental_health_JPN
 SET AgeGroup = CASE
 		WHEN Age BETWEEN 17 AND 24 THEN 'Young Adult'
 		WHEN Age BETWEEN 25 AND 32 THEN 'Adult'
-		END;
+	      END;
 
 -- 1b
 ALTER TABLE mental_health_JPN
@@ -192,7 +192,7 @@ SET PHQ9_DESCRIPTOR = CASE
 			WHEN ToDep BETWEEN 10 AND 14 THEN 'Moderate'
 			WHEN ToDep BETWEEN 15 AND 19 THEN 'Moderately Severe'
 			WHEN ToDep BETWEEN 20 AND 27 THEN 'Severe'
-			END;
+		     END;
 
 ```
 
@@ -235,7 +235,7 @@ FROM
 
 - Our final dashboard shows detailed analysis of factors contributing to depression in the population
 
-![image](https://github.com/user-attachments/assets/6e392b85-4346-47f9-b4e7-5649d19975c4)
+![image](https://github.com/user-attachments/assets/7c2085ed-13f8-43eb-b49e-13989d3dee05)
 
 ## DAX Measures
 
