@@ -1,9 +1,6 @@
 # Analysing Factors that Cause Mental Health Breakdown in an International Student Population.
 
-
 ![image](https://github.com/user-attachments/assets/9c3a77bc-5871-4d29-b5fe-c75ee81d0cda)
-
-
 
 
 # Table of contents
@@ -178,24 +175,25 @@ We aim to refine and normalise the dataset using SQL to ensure it is structured 
 ALTER TABLE mental_health_JPN
 ADD AgeGroup VARCHAR(30);
 
-UPDATE mental_health_JPN            -- 2.
+UPDATE mental_health_JPN            
 SET AgeGroup = CASE
-					WHEN Age BETWEEN 17 AND 24 THEN 'Young Adult'
-					WHEN Age BETWEEN 25 AND 32 THEN 'Adult'
-				END;
+		WHEN Age BETWEEN 17 AND 24 THEN 'Young Adult'
+		WHEN Age BETWEEN 25 AND 32 THEN 'Adult'
+		END;
 
 -- 1b
 ALTER TABLE mental_health_JPN
 ADD PHQ9_DESCRIPTOR VARCHAR(50);
 
-UPDATE mental_health_JPN            -- 2.
+UPDATE mental_health_JPN            
 SET PHQ9_DESCRIPTOR = CASE
-						WHEN ToDep BETWEEN 0 AND 4 THEN 'None Minimal'
-						WHEN ToDep BETWEEN 5 AND 9 THEN 'Mild'
-						WHEN ToDep BETWEEN 10 AND 14 THEN 'Moderate'
-						WHEN ToDep BETWEEN 15 AND 19 THEN 'Moderately Severe'
-						WHEN ToDep BETWEEN 20 AND 27 THEN 'Severe'
-					END;
+			WHEN ToDep BETWEEN 0 AND 4 THEN 'None Minimal'
+			WHEN ToDep BETWEEN 5 AND 9 THEN 'Mild'
+			WHEN ToDep BETWEEN 10 AND 14 THEN 'Moderate'
+			WHEN ToDep BETWEEN 15 AND 19 THEN 'Moderately Severe'
+			WHEN ToDep BETWEEN 20 AND 27 THEN 'Severe'
+			END;
+
 ```
 
 
@@ -309,7 +307,7 @@ These key questions are as follows:
 5. Is there a correlation between PHQ9 score and social connectedness scores?
 6. Is there a correlation between Acculturative stress scores and Social Connectedness?
 
-### 1. What age group of international students is most likely to fall into depression?
+#### 1. What age group of international students is most likely to fall into depression?
 
 | Rank | Age Group                  | Avg. PHQ9 Score |
 |------|----------------------------|-----------------|
@@ -317,7 +315,7 @@ These key questions are as follows:
 | 2    | Adults (25-32 years)       | 10.0            |
 
 
-### 2. What duration of stay in the university has the highest average PHQ9 Score?
+#### 2. What duration of stay in the university has the highest average PHQ9 Score?
 
 | Rank | Length of stay (years) | Avg. PHQ9 Score |
 |------|------------------------|-----------------|
@@ -328,7 +326,7 @@ These key questions are as follows:
 | 5    |    4                   | 11.8            |
 | 6    |    6                   | 10.0            |
 
-### 3. What region has the highest average PHQ9 Score?
+#### 3. What region has the highest average PHQ9 Score?
 
 | Rank |Region                  | Avg. PHQ9 Score |
 |------|------------------------|-----------------|
@@ -339,15 +337,15 @@ These key questions are as follows:
 | 5    | South Asia             | 11.83           |
 
 
-### 4. Is there a correlation between PHQ9 score and Acculturative stress scores?
+#### 4. Is there a correlation between PHQ9 score and Acculturative stress scores?
 
 From the insights generated, acculturative stress shows a significant relationship with PHQ9 score which is a marker for depression amongst international students.
 
-### 5. Is there a correlation between PHQ9 score and social connectedness scores?
+#### 5. Is there a correlation between PHQ9 score and social connectedness scores?
 
 Our analysis shows that theres is a negative association between social connectedness and depression in the population of the international students. 
 
-### 6. Is there a correlation between Acculturative stress scores and social connectedness?
+#### 6. Is there a correlation between Acculturative stress scores and social connectedness?
 
 There is a strong negative relationship between acculturative stress and social connectedness in the population of international students.
 
@@ -371,9 +369,9 @@ Lastly, we observed that as social connectedness increased, the score of accultu
 
 - To improve the mental health of international students in the university population;
 
-  1. Providing appropriate mental and physocal suppoort as this is neccessary in students who are not sure of the path to take in their adulthood.
-  2. Creating a friendly atmospher to enahnce trust among the intenrational students to feel more connected and welcomed.
-  3. Initaiting community based activities for students to increase social connectedness as we have seen that it could be crucial in reducing the likelihood of depression.
+1. Providing appropriate mental and physocal suppoort as this is neccessary in students who are not sure of the path to take in their adulthood.
+2. Creating a friendly atmospher to enahnce trust among the intenrational students to feel more connected and welcomed.
+3. Initaiting community based activities for students to increase social connectedness as we have seen that it could be crucial in reducing the likelihood of depression.
 
 # Conclusion
 
