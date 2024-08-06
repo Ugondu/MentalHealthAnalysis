@@ -135,14 +135,14 @@ Some of the visuals that may be appropiate in answering our questions include:
 
 - To create and end to end solution for our analysis, the steps will entail:
 
-  1. Get the dataset
-  2. Explore the dataset using Excel
-  3. Load the dataset into SQL server
-  4. Clean and normalize the data with SQL
-  5. Visualize the cleaned data using Power BI
-  6. Generate findings based on the insights
-  7. Write documentation on GitHub
-  8. Publish and host findings on GitHub
+1. Get the dataset
+2. Explore the dataset using Excel
+3. Load the dataset into SQL server
+4. Clean and normalize the data with SQL
+5. Visualize the cleaned data using Power BI
+6. Generate findings based on the insights
+7. Write documentation on GitHub
+8. Publish and host findings on GitHub
  
 
 ## Data Exploration
@@ -150,9 +150,9 @@ Some of the visuals that may be appropiate in answering our questions include:
 The dataset is analysed at this stage to check for errors, inconsistencies, data type error, bugs, corrupted characters, whitespaces, blanks, and null fields.
 
 - Initial observations
-  1. Presence of null cells
-  2. Contains columns not relevant to our analysis
-  3. Some headers were not descriptive for easy understanding
+1. Presence of null cells
+2. Contains columns not relevant to our analysis
+3. Some headers were not descriptive for easy understanding
 
 
 ## Data Cleaning
