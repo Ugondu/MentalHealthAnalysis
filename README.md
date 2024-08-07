@@ -339,11 +339,11 @@ These key questions are as follows:
 
 #### 4. Is there a correlation between PHQ9 score and Acculturative stress scores?
 
-From the insights generated, acculturative stress shows a significant relationship with PHQ9 score which is a marker for depression amongst international students.
+From the insights generated, acculturative stress shows a significant positive relationship with PHQ9 score which is a marker for depression amongst international students.
 
 #### 5. Is there a correlation between PHQ9 score and social connectedness scores?
 
-Our analysis shows that theres is a negative association between social connectedness and depression in the population of the international students. 
+Our analysis shows that there is a negative association between social connectedness and depression in the population of the international students. 
 
 #### 6. Is there a correlation between Acculturative stress scores and social connectedness?
 
@@ -354,7 +354,7 @@ There is a strong negative relationship between acculturative stress and social 
 
 From our findings, the high prevalence of depression amongst international students when compared to their domeestic counterpart could be due to many factors. This could be due to high levels of acculturative stress that comes with getting used to a new environment, feeling of being alone due to the geographical distance between the students and their relatives, and low access to mental health support system.
 
-The fear of adult responsibilites and duties by individuals who are in the late teens and mnid 20s could be a contributing factor to depression as seen in the analysis that higher PHQ9 scores are prevalent in this population. 
+The fear of adult responsibilites and duties by individuals who are in the late teens and mid 20s could be a contributing factor to depression as seen in the analysis that higher PHQ9 scores are prevalent in this population. 
 
 Given that most courses offered in the university is between 3 and 4 years, the high PHQ9 socre seen in students with 3 year stay could be associated with the fear of the unknown, difficulties they may face in the labor market which is mentally stressing for most students.
 
@@ -369,9 +369,9 @@ Lastly, we observed that as social connectedness increased, the score of accultu
 
 - To improve the mental health of international students in the university population;
 
-1. Providing appropriate mental and physocal suppoort as this is neccessary in students who are not sure of the path to take in their adulthood.
-2. Creating a friendly atmospher to enahnce trust among the intenrational students to feel more connected and welcomed.
-3. Initaiting community based activities for students to increase social connectedness as we have seen that it could be crucial in reducing the likelihood of depression.
+1. Providing appropriate mental and physical support as this is neccessary in students who are not sure of the path to take in their adulthood.
+2. Creating a friendly atmosphere to enhance trust among the international students to feel more connected and welcomed.
+3. Initiating community based activities for students to increase social connectedness as we have seen that it could be crucial in reducing the likelihood of depression.
 
 # Conclusion
 
