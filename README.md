@@ -350,7 +350,7 @@ Our analysis shows that there is a negative association between social connected
 There is a strong negative relationship between acculturative stress and social connectedness in the population of international students.
 
 
-# Insights
+## Insights
 
 From our findings, the high prevalence of depression amongst international students when compared to their domeestic counterpart could be due to many factors. This could be due to high levels of acculturative stress that comes with getting used to a new environment, feeling of being alone due to the geographical distance between the students and their relatives, and low access to mental health support system.
 
@@ -369,8 +369,8 @@ Lastly, we observed that as social connectedness increased, the score of accultu
 
 - To improve the mental health of international students in the university population;
 
-1. Providing appropriate mental and physical support as this is neccessary in students who are not sure of the path to take in their adulthood.
-2. Creating a friendly atmosphere to enhance trust among the international students to feel more connected and welcomed.
+1. Tackling high PHQ-9 score prevalent in students from other countries can be achieved by providing appropriate mental and physical support mechanisms. This is neccessary for students who feel lonely, not welcomed, and homesick.
+2. Given that increased social connectedness score negatively correlated with high PHQ-9 score, creating a friendly atmosphere for nternational students to feel more connected and welcomed in the university community will be a positive.
 3. Initiating community based activities for students to increase social connectedness as we have seen that it could be crucial in reducing the likelihood of depression.
 
 # Conclusion
