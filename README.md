@@ -17,7 +17,7 @@
   - [Data Cleaning](#data-cleaning)
   - [Data Transformation](#data-transformation)
   - [Create SQL View](#create-sql-view)
-- [ Visualization](#visualization)
+- [Visualization](#visualization)
   - [Results](#results)
   - [DAX Measures](#dax-measures)
 - [Analysis](#analysis)
@@ -39,17 +39,14 @@ The Head of Data Analytics team wants a detailed report on the determinants of d
 
 - What is the ideal solution?
 
-This would entail creating a detailed dashboard that provides insights into the possible causes of depression that includes
-- Total Students
-- Total number of international students
-- Students open to suicidal thoughts
-- Average Score of PHQ-9 questionnaire
-- Regional distribution
-- Length of stay
-- Distribution by Age group
-- Correlation charts
+This would entail creating a detailed dashboard that provides insights into;
 
-
+- The relationship between depression and length of stay
+- The relationship between regions and tendency for depression
+- The relationship between PHQ-9 score and Social connectedness score
+- The relationship between PHQ-9 score and acculturative score index
+- The relationship between social connectedness and Acculturative score index
+ 
 
 # Data Source
 
@@ -65,7 +62,7 @@ To achieve our aim of providing a detailed analysis, we need dataset that includ
 - ToSC ( Social Connectedness score)
 
 
-The dataset is sourced from Kaggle in Excel format, [see here to find it.](https://www.kaggle.com/datasets/abdallahprogrammer/students-mental-health)
+The dataset is sourced from Kaggle in Excel format, [see here to find it](https://www.kaggle.com/datasets/abdallahprogrammer/students-mental-health)
 
 
 # Stages
