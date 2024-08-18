@@ -51,7 +51,7 @@ This would entail creating a detailed dashboard that provides insights into;
 # Data Source
 
 To achieve our aim of providing a detailed analysis, we need dataset that includes
-- Student Status ( internation or domestic)
+- Student Status ( international or domestic)
 - Stay
 - Age
 - Suicide ( Yes or No)
@@ -77,20 +77,17 @@ The dataset is sourced from Kaggle in Excel format, [see here to find it](https:
 # Design
 
 ## Dashboard components required
-- What should our dashboard caontain based on the requirements provided?
+- What should our dashboard contain based on the requirements?
 
 The contents will be dependent on the questions we need the dashboard to answer:
 
-1. What is the total number of students that participated in the survey?
-2. What is the total number of international students?
-3. What is the total number of domestoc students?
-4. What is the average PHQ-9 score of international students with suicidal thoughts?
-5. What is average PHQ-9 score of age group of international students with suicidal thoughts?
-6. What is the average PHQ-9 score of students by the length of stay in the university?
-7. What is the average PHQ-9 score of student by region?
-8. Is there a correlation between PHQ9-score and acculturative score?
-9. Is there a correlation between PHQ9_score and social connectedness score?
-10. What is the relationship between social connectedness and acculturative score?
+1. What is the average PHQ-9 score of international students with suicidal thoughts?
+2. What is average PHQ-9 score of age group of international students with suicidal thoughts?
+3. What is the average PHQ-9 score of students by the length of stay in the university?
+4. What is the average PHQ-9 score of student by region?
+5. Is there a correlation between PHQ9-score and acculturative score?
+6. Is there a correlation between PHQ9_score and social connectedness score?
+7. What is the relationship between social connectedness and acculturative score?
 
 This will form the basis of our dashboard and may change as the analysis progresses.
 
@@ -99,7 +96,7 @@ This will form the basis of our dashboard and may change as the analysis progres
 
 - What will our final dashboard look like?
 
-Some of the visuals that may be appropiate in answering our questions include:
+Some of the visuals that may be appropriate in answering our questions include:
 
 1. Treemap
 2. Scorecards
@@ -367,7 +364,9 @@ Lastly, we observed that as social connectedness increased, the score of accultu
 - To improve the mental health of international students in the university population;
 
 1. Tackling high PHQ-9 score prevalent in students from other countries can be achieved by providing appropriate mental and physical support mechanisms. This is neccessary for students who feel lonely, not welcomed, and homesick.
+   
 2. Given that increased social connectedness score negatively correlated with high PHQ-9 score, creating a friendly atmosphere for nternational students to feel more connected and welcomed in the university community will be a positive.
+   
 3. Initiating community based activities for students to increase social connectedness as we have seen that it could be crucial in reducing the likelihood of depression.
 
 # Conclusion
